@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue";
+}
+
+.header {
+  background-color: #00b8d4;
+  text-align: center;
+  padding: 3rem 0;
+  border-top: 0.5rem solid #e91e63;
+  color: white;
+}
+
+.header h1 {
+  font-size: 4rem;
+  letter-spacing: 0.5rem;
+  font-weight: 100;
+}
+
+.header h2 {
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  font-weight: 100;
+  padding-top: 1rem;
+}
+
+.tagline {
+  padding: 3rem 1rem;
+  margin: 0 auto;
+  max-width: 900px;
+  background-color: white;
+}
+
+.tagline h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.tagline p {
+  font-size: 1.25rem;
+  padding-top: 1rem;
+  font-weight: 300;
+}
+
+.tagline p > a {
+  font-weight: bold;
+  color: #00b8d4;
+  text-decoration: none;
+  padding: 0.2rem 0;
+  border-bottom: 0.2rem solid #00b8d4;
+}
+
+.tagline p > a:hover {
+  background-color: #00b8d4;
+  color: white;
+}
+
+.skills {
+  background-color: #e91e63;
+  margin: 0;
+  color: white;
+}
+
+.skills .skills__wrapper {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 2rem 1rem;
+}
+
+.skills h3 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.skills p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding-top: 1rem;
+}
+
+.skills ul {
+  padding-top: 1rem;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.skills ul > li {
+  margin-left: 1.25rem;
+  padding: 0.25rem 0;
+}
+
+.contact {
+  padding: 3rem 1rem;
+  margin: 0 auto;
+  max-width: 900px;
+  background-color: white;
+}
+
+.contact h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.contact p {
+  font-size: 1.25rem;
+  padding-top: 1rem;
+  font-weight: 300;
+}
+
+.contact p > a {
+  font-weight: bold;
+  color: #00b8d4;
+  text-decoration: none;
+  padding: 0.2rem 0;
+  border-bottom: 0.2rem solid #00b8d4;
+}
+
+.contact p > a:hover {
+  background-color: #00b8d4;
+  color: white;
+}
